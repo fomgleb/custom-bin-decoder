@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    lua_script.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    lua_script.h
 
 FORMS += \
     mainwindow.ui
